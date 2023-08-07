@@ -1,0 +1,174 @@
+.bg
+{
+    margin: -15px;
+    padding: 0px;
+    background-image: url(img/bg.jpg);
+    filter: blur(5px);
+    -webkit-filter: blur(40%);
+    height: 1350px;
+    background-repeat: no-repeat;
+    font-family: 'Roboto Slab', serif;
+    background-blend-mode:lighten;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.left {
+    /*  border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}
+
+
+.left img {
+    width: 62px;
+    height: 98px;
+    margin: 28px;
+    filter: invert(100%);
+
+}
+
+p.name {
+
+    text-align: center;
+    margin: -11px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+    font-weight: 1000;
+    color: white;
+}
+
+.right {
+    /*   border: 2px solid red; */
+    position: inline-block;
+    position: absolute;
+    top: 17px;
+    right: 434px;
+    width: 51%;
+}
+
+.right nav li {
+    display: inline-block;
+    font-size: 24px;
+
+}
+
+.right nav li a {
+
+    list-style: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    text-align: center;
+    padding: 26px 47px;
+
+}
+
+.right nav li a:hover,
+.right nav li a.active {
+    text-decoration: underline;
+    color: #ec3b3b;
+}
+
+.container{
+    background-color: rgb(195 32 32);
+    position: absolute;
+    top: 306px;
+    left: 559px;
+    width: 30%;
+    padding-top: 25px;
+    padding-left: 100px;
+    padding-right: 10px;
+    padding-bottom: 38px;
+    border-radius: 59px;
+    
+}
+.container h1{
+    text-align: center;
+    font-size: 42px;
+    margin-right: 80px;
+    font-family: 'Roboto Slab', serif;
+
+}
+.reg-form input{
+        font-size: 25px;
+        font-weight: 500;
+        margin: 5px;
+        width: 82%;
+        display: inline-block;
+        text-align: center;
+        font-family: 'Roboto Slab', serif;
+
+}
+.gender{
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    font-family: 'Roboto Slab', serif;
+
+}
+.gender select{
+    font-size: 18px;
+    border-radius: 7px;
+    margin-left: 14px;
+}
+.address h6{
+    display: block;
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+
+}
+.trainer label{
+    font-size: 24px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+
+}
+.trainer input{
+    margin-left: -196px;
+    MARGIN-TOP: 14px;
+}
+.address input {
+    margin-left: -1px;
+    margin-top: -5px;
+}
+.address label{
+    display: block;
+    font-size: 27px;
+    margin-bottom: 11px;
+    margin-top: 8px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+
+}
+.btn{
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-left: 195px;
+    width: 30%;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    border-radius: 27px;
+    border: none;
+
+}
+
+.container .btn:hover{
+    cursor: pointer;
+   background-color:  rgb(46 30 30);
+}
+.container:hover{
+    background-color: rgb(182, 21, 21);
+    box-shadow:  12px 9px 18px 6px;
+}
+
+
